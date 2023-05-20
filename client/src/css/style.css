@@ -1,0 +1,278 @@
+.color-1 {
+  background-color: #f1f3ff;
+}
+.color-2 {
+  background-color: #0d28a6;
+}
+.color-3 {
+  background-color: #def1df;
+}
+.color-4 {
+  background-color: #c9e7ca;
+}
+.color-5 {
+  background-color: #92d094;
+}
+.color-6 {
+  background-color: #5cb85f;
+}
+.color-7 {
+  background-color: #3d7b3f;
+}
+
+.blue-4 {
+  background-color: #0d28a6;
+}
+.green-1 {
+  background-color: #def1df;
+}
+.green-2 {
+  background-color: #c9e7ca;
+}
+.green-3 {
+  background-color: #92d094;
+}
+.green-4 {
+  background-color: #5cb85f;
+}
+.green-5 {
+  background-color: #3d7b3f;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-style: normal;
+}
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+.logo {
+  width: 100px;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.btn:hover {
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.24), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-content {
+  padding-left: 7%;
+}
+.home-content h1,
+.home-content p,
+.home-content a {
+  text-align: left;
+}
+.home-content img {
+  float: right;
+}
+
+.check-our-service {
+  width: 24px;
+}
+
+.card-why-us {
+  min-height: 14rem;
+  border-radius: 10px;
+}
+.icon-why-us {
+  width: 36px;
+}
+
+.CTA-banner {
+  border-radius: 10px;
+}
+.banner-text {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.accordion-body {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.card-testimonial {
+  max-width: 710px;
+}
+
+.card-style {
+  background-color: #f1f3ff;
+  border-radius: 10px;
+  max-width: 710px;
+  height: 230px;
+  margin: auto;
+}
+
+.photo-style {
+  width: 70px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.rate-style {
+  width: 100px;
+}
+
+.carousel-control-next {
+  background-color: #5cb85f;
+  width: 40px;
+  height: 40px;
+  opacity: 100%;
+  border-radius: 50%;
+  display: flex;
+  right: 46%;
+  top: 98%;
+}
+
+.carousel-control-prev {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  opacity: 100%;
+  border-radius: 50%;
+  left: 46%;
+  top: 98%;
+}
+
+.footer-menu {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.icon-social-media {
+  height: 32px;
+}
+
+.card-pesan {
+  width: 80%;
+  margin-top: -50px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 1px #ebebeb;
+  font-size: 12px;
+  z-index: 3;
+  position: relative;
+}
+.fifty-chars {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.icon-card-car {
+  width: 25px;
+}
+
+.card-style-car {
+  width: 18rem;
+}
+
+.car-image {
+  object-fit: cover;
+}
+
+.on-card-car {
+  width: 18rem;
+  min-height: 500px;
+}
+
+.img-style-card {
+  height: 190px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .card-why-us {
+    min-height: 16rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-link {
+    font-size: 12px;
+  }
+  .home-content {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-our {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-why-us {
+    min-height: 21rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .card-why-us {
+    min-height: 12rem;
+  }
+  .why-us-text {
+    text-align: center;
+  }
+  .rate-testimonial {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner {
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner-text {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .owl-carousel .card {
+    max-width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner {
+    max-width: 25rem;
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .card-why-us {
+    min-height: 5rem;
+  }
+  .owl-carousel .card {
+    max-width: 20rem;
+  }
+  .banner {
+    max-width: 20rem;
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+  .banner p {
+    font-size: 1rem;
+  }
+}
