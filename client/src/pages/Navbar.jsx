@@ -8,7 +8,7 @@ export default () => {
     <Navbar expand="lg" className="fixed-top mb-3 color-1">
       <Container fluid className="mx-5">
         <Navbar.Brand href="/">
-          <img className="logo ms-5" src="/img/logo.png" alt="logo" />
+          <img className="logo ms-lg-5" src="/img/logo.png" alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
         <Navbar.Offcanvas id={`offcanvasNavbar-expand-lg`} aria-labelledby={`offcanvasNavbarLabel-expand-lg`} placement="end" className="navbar-offcanvas">

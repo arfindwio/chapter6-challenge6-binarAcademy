@@ -1,41 +1,27 @@
 .color-1 {
   background-color: #f1f3ff;
 }
+
 .color-2 {
   background-color: #0d28a6;
 }
+
 .color-3 {
   background-color: #def1df;
 }
+
 .color-4 {
   background-color: #c9e7ca;
 }
 .color-5 {
   background-color: #92d094;
 }
+
 .color-6 {
   background-color: #5cb85f;
 }
-.color-7 {
-  background-color: #3d7b3f;
-}
 
-.blue-4 {
-  background-color: #0d28a6;
-}
-.green-1 {
-  background-color: #def1df;
-}
-.green-2 {
-  background-color: #c9e7ca;
-}
-.green-3 {
-  background-color: #92d094;
-}
-.green-4 {
-  background-color: #5cb85f;
-}
-.green-5 {
+.color-7 {
   background-color: #3d7b3f;
 }
 
@@ -43,20 +29,24 @@ body {
   font-family: Helvetica, sans-serif;
   font-style: normal;
 }
+
 h1 {
   font-weight: bold;
   font-size: 36px;
   line-height: 150%;
 }
+
 h2 {
   font-size: 24px;
   font-weight: bold;
 }
+
 p {
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
 }
+
 .logo {
   width: 100px;
 }
@@ -72,11 +62,13 @@ nav a:hover {
 .home-content {
   padding-left: 7%;
 }
+
 .home-content h1,
 .home-content p,
 .home-content a {
   text-align: left;
 }
+
 .home-content img {
   float: right;
 }
@@ -89,6 +81,7 @@ nav a:hover {
   min-height: 14rem;
   border-radius: 10px;
 }
+
 .icon-why-us {
   width: 36px;
 }
@@ -96,6 +89,7 @@ nav a:hover {
 .CTA-banner {
   border-radius: 10px;
 }
+
 .banner-text {
   width: 50%;
   margin: 0 auto;
@@ -159,6 +153,7 @@ nav a:hover {
   color: black;
   font-weight: 600;
 }
+
 .icon-social-media {
   height: 32px;
 }
@@ -172,6 +167,7 @@ nav a:hover {
   z-index: 3;
   position: relative;
 }
+
 .fifty-chars {
   overflow: hidden;
   white-space: nowrap;
@@ -203,24 +199,47 @@ nav a:hover {
   .card-why-us {
     min-height: 16rem;
   }
+
+  .carousel-control-next {
+    right: 45%;
+    top: 98%;
+  }
+
+  .carousel-control-prev {
+    left: 45%;
+    top: 98%;
+  }
 }
 
 @media only screen and (max-width: 992px) {
   .nav-link {
     font-size: 12px;
   }
+
   .home-content {
     max-width: 50rem;
     margin-left: auto;
     margin-right: auto;
   }
+
   .img-our {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+
   .card-why-us {
     min-height: 21rem;
+  }
+
+  .carousel-control-next {
+    right: 44%;
+    top: 98%;
+  }
+
+  .carousel-control-prev {
+    left: 44%;
+    top: 98%;
   }
 }
 
@@ -228,20 +247,54 @@ nav a:hover {
   .card-why-us {
     min-height: 12rem;
   }
+
   .why-us-text {
     text-align: center;
   }
+
   .rate-testimonial {
     margin-left: auto;
     margin-right: auto;
   }
+
   .banner {
     max-width: 35rem;
     margin-left: auto;
     margin-right: auto;
   }
+
   .banner-text {
     width: auto;
+  }
+
+  .card-style {
+    max-width: 570px;
+    height: 330px;
+    margin: auto;
+  }
+
+  .p-testimonial {
+    text-align: justify;
+  }
+
+  .rate-testimonial {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-body {
+    padding: 0 70px;
+    margin: 30px 0;
+  }
+
+  .carousel-control-next {
+    right: 43%;
+    top: 98%;
+  }
+
+  .carousel-control-prev {
+    left: 43%;
+    top: 98%;
   }
 }
 
@@ -251,11 +304,58 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+
   .banner {
     max-width: 25rem;
   }
+
   .banner h1 {
     font-size: 2rem;
+  }
+
+  .card-style {
+    max-width: 550px;
+    height: 370px;
+    margin: auto;
+  }
+
+  .carousel-control-next {
+    right: 42%;
+    top: 98%;
+  }
+
+  .carousel-control-prev {
+    left: 42%;
+    top: 98%;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .carousel-control-next {
+    right: 40%;
+    top: 98%;
+  }
+
+  .carousel-control-prev {
+    left: 40%;
+    top: 98%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .card-style {
+    height: 400px;
+    margin: auto;
+  }
+
+  .carousel-control-next {
+    right: 37%;
+    top: 98%;
+  }
+
+  .carousel-control-prev {
+    left: 37%;
+    top: 98%;
   }
 }
 
@@ -263,15 +363,19 @@ nav a:hover {
   .card-why-us {
     min-height: 5rem;
   }
+
   .owl-carousel .card {
     max-width: 20rem;
   }
+
   .banner {
     max-width: 20rem;
   }
+
   .banner h1 {
     font-size: 2rem;
   }
+
   .banner p {
     font-size: 1rem;
   }

@@ -77,7 +77,7 @@ function CardFilter() {
                 <input type="number" id="passenger" className="form-control" placeholder="Jumlah Penumpang" value={passenger} onChange={handlePassenger} />
               </div>
               <div className="col">
-                <button className="btn green-4 text-white fw-bold mt-3">Cari Mobil</button>
+                <button className="btn color-6 text-white fw-bold mt-3">Cari Mobil</button>
               </div>
             </div>
           </form>

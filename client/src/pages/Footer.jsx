@@ -6,12 +6,12 @@ function Footer() {
   return (
     <div className="container footer pt-5">
       <div className="row">
-        <div className="col-md-4 col-lg-3 mb-2 mb-md-0">
+        <div className="col-md-4 col-lg-3 mb-1 mb-md-0">
           <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
           <p>binarcarrental@gmail.com</p>
           <p>081-233-334-808</p>
         </div>
-        <div className="col-md-2 col-lg-3 mb-2 mb-md-0">
+        <div className="col-md-2 col-lg-3 mb-3 mb-md-0">
           <a href="#our-service" className="footer-menu mb-md-2">
             Our Service
           </a>
@@ -45,7 +45,7 @@ function Footer() {
         </div>
         <div className="col-md-3 col-lg-3 pb-3">
           <p>Copyright Binar 2022</p>
-          <a href="">
+          <a href="#">
             <img className="logo" src="/img/logo.png" alt="" />
           </a>
         </div>
